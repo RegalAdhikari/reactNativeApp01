@@ -21,12 +21,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF",
-        "package": "com.regtrixlabs.startnative"
-      }
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.regtrixlabs.startnative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "21f1b50a-8f1d-4fc2-821c-92feccd0f0da"
+      }
     }
   }
 }
